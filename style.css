@@ -1,0 +1,47 @@
+body{
+    color:blue;
+    text-align: center;
+    display: block;
+    box-sizing: border-box;
+    max-width: 350px;
+    background-color: whitesmoke;
+    width:fit-content;
+    margin:auto;
+    
+}
+h1{
+    font-family: Tahoma ;
+    word-spacing:3px ;
+}
+h2{
+    padding:0px;
+    margin:auto;
+    line-height: 15px;
+
+}
+ h3{
+    font-family:Verdana;
+    line-height: 10px;
+}
+  p{
+    word-spacing: 5px;
+    font-weight:700;
+  }
+img{
+    border-radius: 50px;
+    border-color: #fff;
+}
+.profile{
+    background-color:rebeccapurple ;
+    margin:50px;
+    padding:20px;
+    border-color:black ;
+    width:100%;
+    outline-color: invert; 
+
+}
+a{
+    font-family:'Times New Roman';
+    font-weight: 600;
+    color: #fff;
+}
