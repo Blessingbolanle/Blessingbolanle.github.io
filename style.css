@@ -9,35 +9,21 @@ body{
     margin:auto;
     
 }
-h1{
-    font-family: Tahoma ;
-    word-spacing:3px ;
-}
-h2{
-    padding:0px;
-    margin:auto;
-    line-height: 15px;
 
-}
- h3{
-    font-family:Verdana;
-    line-height: 10px;
-}
-  p{
-    word-spacing: 5px;
-    font-weight:700;
-  }
+  
 img{
     border-radius: 50px;
     border-color: #fff;
 }
 .profile{
-    background-color:rebeccapurple ;
+    background-color:black ;
     margin:50px;
     padding:20px;
     border-color:black ;
     width:100%;
     outline-color: invert; 
+    font-weight: 900;
+    
 
 }
 a{

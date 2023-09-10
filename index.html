@@ -3,31 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blessing Bolanle</title>
+    <title>Frontend Profile Task</title>
     <link rel="stylesheet" href="./style.css">
-    
+    <script src="script.js"></script>
 </head>
 <body>
   
-    <div class="profile"
-    <!--slack Name-->
-   <h1 data-testid="slackUserName">Blessing Bolanle</h1>
+    <div class="profile">
+    <!--slack name-->
+   <p data-testid="slackUserName"><h1>Blessing Bolanle</h1></p>
       <!--Slack Display Picture-->
-    <img src="https://ca.slack-edge.com/T05FFAA91JP-U05R7HJ08KY-22000890ee3e-512"  alt="Blessing Bolanle" width="200px">
-    <p data-testid="slackDisplayImage"></p>
+    <img src="https://ca.slack-edge.com/T05FFAA91JP-U05R7HJ08KY-22000890ee3e-512"  alt="Blessing Bolanle" width="200px"
+     data-testid="slackDisplayImage" >
           
     <!--Current day of the week-->
-      <h2 data-testid="currentDayOfTheWeek">Thursday</h2>
+      <p data-testid="currentDayOfTheWeek" id="currentday"></p>
 
       <!--Current UTC Time-->
-      <p data-testid="currentUTCTime">14:33:17</p>
-
+      <p data-testid="currentUTCTime" id="currenttime"></p>
       
-          <!--Track-->
-      <h3 data-testid="myTrack">Frontend</h3>
+        <!--Track-->
+      <p data-testid="myTrack">Track: Frontend</p>
 
      <!--Github URl-->
-     <a href="https://github.com/Blessingbolanle/Blessingbolanle.github.io.git">Click to see the code</a>
+     <a href="https://github.com/Blessingbolanle/Blessingbolanle.github.io.git" data testid="githubURL">Github Repository</a>
+
     </div>
 </body>
 </html>
